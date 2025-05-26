@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Papu Página</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>🕹️La Papu Página</h1>
+    <p>Tu lugar para descargar juegazos papu 😎</p>
+  </header>
+
+  <main>
+    <!-- Categorías -->
+    <nav class="categorias">
+      <button onclick="filtrar('pc')">PC</button>
+      <button onclick="filtrar('android')">Android</button>
+      <button onclick="filtrar('todos')">Todos</button>
+    </nav>
+
+    <!-- Buscador -->
+    <input type="text" id="buscador" placeholder="Buscar juego..." />
+
+    <!-- Tarjetas de juegos -->
+    <section class="juegos">
+
+      <!-- Juego PC -->
+      <div class="juego-card pc">
+        <img src="images/Repo logo.jpg" alt="R.E.P.O">
+        <h2>R.E.P.O</h2>
+        <p class="descargas">🔻 500k descargas</p>
+        <p class="estrellas">⭐️⭐️⭐️⭐️☆</p>
+        <button class="toggle-btn">Mostrar más</button>
+        <div class="juego-info">
+          <p><strong>Descripción:</strong> Juego cooperativo de terror con chat de voz de proximidad. Explorá
+            con tus amigos y sobreviví a los monstruos.</p>
+          <p><strong>Requisitos mínimos:</strong></p>
+          <ul>
+            <li>OS: Windows 7/10</li>
+            <li>Procesador: Intel i3</li>
+            <li>RAM: 4GB</li>
+            <li>Gráficos: Intel HD o superior</li>
+          </ul>
+          <a href="https://ouo.io/zXYQuq" class="descargar-btn">Descargar para PC</a>
+        </div>
+      </div>
+
+      <div class="juego-card pc">
+        <img src="images/Schedule logo.jpg" alt="Schedule I">
+        <h2>SCHEDULE I</h2>
+        <p class="descargas">🔻 300k descargas</p>
+        <p class="estrellas">⭐️⭐️⭐️⭐️☆</p>
+        <button class="toggle-btn">Mostrar más</button>
+        <div class="juego-info">
+          <p><strong>Descripción:</strong> Simulador criminal donde expandís tu imperio ilegal con estrategia.</p>
+          <p><strong>Requisitos mínimos:</strong></p>
+          <ul>
+            <li>OS: Windows 7/10</li>
+            <li>Procesador: Intel i3</li>
+            <li>RAM: 4 GB</li>
+            <li>Gráficos: Intel HD o superior</li>
+          </ul>
+          <a href="https://ouo.io/w7JUS2" class="descargar-btn">Descargar para PC</a>
+        </div>
+      </div>
+
+      <div class="juego-card pc">
+        <img src="images/Among us logo.jpg" alt="Among Us">
+        <h2>AMONG US</h2>
+        <p class="descargas">🔻 1M descargas</p>
+        <p class="estrellas">⭐️⭐️⭐️⭐️⭐️</p>
+        <button class="toggle-btn">Mostrar más</button>
+        <div class="juego-info">
+          <p><strong>Descripción:</strong> Juego de roles. ¿Tripulante o impostor? ¡Descubrilo o engañalos!</p>
+          <p><strong>Requisitos mínimos:</strong></p>
+          <ul>
+            <li>OS: Windows 7 SP1+</li>
+            <li>Procesador: Intel Core 2 Duo</li>
+            <li>RAM: 1 GB</li>
+            <li>Gráficos: DirectX 10+</li>
+          </ul>
+          <a href="https://ouo.io/09Ythz" class="descargar-btn">Descargar para PC</a>
+        </div>
+      </div>
+
+      <div class="juego-card pc">
+        <img src="images/Lethal company logo.webp" alt="Lethal Company">
+        <h2>LETHAL COMPANY</h2>
+        <p class="descargas">🔻 800k descargas</p>
+        <p class="estrellas">⭐️⭐️⭐️⭐️⭐️</p>
+        <button class="toggle-btn">Mostrar más</button>
+        <div class="juego-info">
+          <p><strong>Descripción:</strong> Explorá lunas abandonadas y recolectá chatarra con tus amigos.</p>
+          <p><strong>Requisitos mínimos:</strong></p>
+          <ul>
+            <li>OS: Windows 10</li>
+            <li>Procesador: Intel i5</li>
+            <li>RAM: 8 GB</li>
+            <li>Gráficos: GTX 1050 o superior</li>
+          </ul>
+          <a href="https://ouo.io/Pwqyflt" class="descargar-btn">Descargar para PC</a>
+        </div>
+      </div>
+
+      <!-- Juego Android -->
+      <div class="juego-card android">
+        <img src="images/Papus logo.jpg" alt="discord">
+        <h2>𝔏𝔞𝔓𝔞𝔭𝔲𝔖𝔢ñ𝔞𝔩</h2>
+        <button class="toggle-btn">Mostrar más</button>
+        <div class="juego-info">
+          <p><strong>Descripción:</strong> Discord de los Papus</p>
+          <a href="https://discord.gg/7VxXPq3KUa" class="descargar-btn">Link</a>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
